@@ -1,59 +1,79 @@
-# Introduction to GitHub
+👨‍💻 Sobre mim
 
-<!-- ![](../../actions/workflows/0-start-exercise.yml/badge.svg) -->
-![](../../actions/workflows/1-create-a-branch.yml/badge.svg)
-![](../../actions/workflows/2-commit-a-file.yml/badge.svg)
-![](../../actions/workflows/3-open-a-pull-request.yml/badge.svg)
-![](../../actions/workflows/4-merge-your-pull-request.yml/badge.svg)
+Sou Alisson Mendes, desenvolvedor Front-End e Engenheiro de Prompts de IA com paixão por criar interfaces modernas e experiências digitais inteligentes. Combino design visual com o poder da inteligência artificial para construir soluções que realmente fazem a diferença.
 
-_Get started using GitHub in less than an hour._
+javascriptconst alisson = {
+  localização: "🇧🇷 Brasil",
+  foco: ["Front-End Development", "AI Prompt Engineering"],
+  atualmente: "Explorando a interseção entre UI/UX e Inteligência Artificial",
+  buscando: "Projetos desafiadores que unam criatividade e tecnologia",
+  curiosidade: "Acredito que bons prompts são a nova forma de programar 🤖"
+};
 
-## Welcome
 
-People use GitHub to build some of the most advanced technologies in the world. Whether you’re visualizing data or building a new game, there’s a whole community and set of tools on GitHub that can help you do it even better. GitHub Skills’ “Introduction to GitHub” exercise guides you through everything you need to start contributing in less than an hour.
+🚀 Stack & Ferramentas
 
-- **Who is this for**: New developers, new GitHub users, and students.
-- **What you'll learn**: We'll introduce repositories, branches, commits, and pull requests.
-- **What you'll build**: We'll make a short Markdown file you can use as your [profile README](https://docs.github.com/account-and-profile/setting-up-and-managing-your-github-profile/customizing-your-profile/managing-your-profile-readme).
-- **Prerequisites**: None. This exercise is a great introduction for your first day on GitHub.
-- **How long**: This exercise takes less than one hour to complete.
+<div align="center">
+Front-End
 
-In this exercise, you will:
+Mostrar Imagem
+Mostrar Imagem
+Mostrar Imagem
+Mostrar Imagem
 
-1. Create a branch
-2. Commit a file
-3. Open a pull request
-4. Merge your pull request
+IA & Prompts
 
-### How to start this exercise
+Mostrar Imagem
+Mostrar Imagem
+Mostrar Imagem
 
-1. Right-click **Copy Exercise** and open the link in a new tab.
+Ferramentas
 
-   <a id="copy-exercise" href="https://github.com/new?template_owner=skills&template_name=introduction-to-github&owner=%40me&name=skills-introduction-to-github&description=Exercise:+Introduction+to+GitHub&visibility=public">
-      <img src="https://img.shields.io/badge/📠_Copy_Exercise-008000" height="25pt"/>
-   </a>
+Mostrar Imagem
+Mostrar Imagem
+Mostrar Imagem
+Mostrar Imagem
 
-2. In the new tab, most of the prompts will automatically fill in for you.
-   - For owner, choose your personal account or an organization to host the repository.
-   - We recommend creating a public repository, as private repositories will [use Actions minutes](https://docs.github.com/en/billing/managing-billing-for-github-actions/about-billing-for-github-actions).
-   - Scroll down and click the **Create repository** button at the bottom of the form.
+</div>
 
-3. After your new repository is created, wait about 20 seconds for the exercise to be prepared and buttons updated. You will continue working from your copy of the exercise.
-   - The **Copy Exercise** button will deactivate, changing to gray.
-   - The **Start Exercise** button will activate, changing to green.
-   - You will likely need to refresh the page.
+🤖 O que é Prompt Engineering?
 
-4. Click **Start Exercise**. Follow the step-by-step instructions and feedback will be provided as you progress.
 
-   <a id="start-exercise">
-      <img src="https://img.shields.io/badge/🚀_Start_Exercise-AAA" height="25pt"/>
-   </a>
+"Um bom prompt é como um bom briefing — ele determina a qualidade de tudo que vem depois."
 
-> [!IMPORTANT]
-> The **Start Exercise** button will activate after copying the repository. You will probably need to refresh the page.
 
----
 
-Get help: [Post in our discussion board](https://github.com/orgs/skills/discussions/categories/introduction-to-github) &bull; [Review the GitHub status page](https://www.githubstatus.com/)
+Como AI Prompt Engineer, eu:
 
-&copy; 2024 GitHub &bull; [Code of Conduct](https://www.contributor-covenant.org/version/2/1/code_of_conduct/code_of_conduct.md) &bull; [MIT License](https://gh.io/mit)
+
+🎯 Estruturo prompts para extrair o máximo de modelos como GPT-4, Claude e Gemini
+⚡ Automatizo fluxos de trabalho usando IA generativa
+🔗 Integro LLMs em interfaces e produtos digitais
+📐 Documento e otimizo prompts para uso em produção
+
+
+
+📊 GitHub Stats
+
+<div align="center">
+<img height="160em" src="https://github-readme-stats.vercel.app/api?username=devMendes23&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true"/>
+<img height="160em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=devMendes23&layout=compact&langs_count=7&theme=tokyonight&hide_border=true"/>
+</div>
+<div align="center">
+Mostrar Imagem
+
+</div>
+
+📫 Vamos conversar?
+
+<div align="center">
+Mostrar Imagem
+Mostrar Imagem
+Mostrar Imagem
+
+</div>
+
+<div align="center">
+<img src="https://komarev.com/ghpvc/?username=devMendes23&color=blueviolet&style=for-the-badge&label=Visitas+ao+Perfil" />
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=120&section=footer"/>
+</div>
