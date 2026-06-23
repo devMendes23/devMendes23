@@ -67,7 +67,7 @@ Como AI Prompt Engineer, eu:
 <img src="https://streak-stats.demolab.com?user=devMendes23&theme=tokyonight&hide_border=true&background=0D1117&ring=A855F7&fire=A855F7&currStreakLabel=A855F7" alt="GitHub Streak"/>
 <br/><br/>
 
-<!-- SNAKE ANIMATION - gere em: https://platane.github.io/snk/ -->
+
 <img src="https://raw.githubusercontent.com/devMendes23/devMendes23/output/github-contribution-grid-snake-dark.svg" alt="Snake animation" />
 </div>
 
