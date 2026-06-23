@@ -67,8 +67,6 @@ Como AI Prompt Engineer, eu:
 <img src="https://streak-stats.demolab.com?user=devMendes23&theme=tokyonight&hide_border=true&background=0D1117&ring=A855F7&fire=A855F7&currStreakLabel=A855F7" alt="GitHub Streak"/>
 <br/><br/>
 
-
-<img src="https://raw.githubusercontent.com/devMendes23/devMendes23/output/github-contribution-grid-snake-dark.svg" alt="Snake animation" />
 </div>
 
 > connect --me
@@ -85,7 +83,6 @@ Mostrar Imagem
 <br/>
 Visitantes
 
-Mostrar Imagem
 
 </div>
 <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,20,25&height=120&section=footer" width="100%"/>
