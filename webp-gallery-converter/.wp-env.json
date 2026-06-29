@@ -1,0 +1,10 @@
+{
+	"//": "Configuração do @wordpress/env (Docker). Monta esta pasta como plugin.",
+	"//2": "Rode 'npx @wordpress/env start' para subir o ambiente em http://localhost:8888",
+	"core": null,
+	"plugins": [ "." ],
+	"config": {
+		"WP_DEBUG": true,
+		"WP_DEBUG_LOG": true
+	}
+}

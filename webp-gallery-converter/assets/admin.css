@@ -1,0 +1,45 @@
+/*
+ * admin.css
+ * --------------------------------------------------------------------------
+ * Estilos da tela de administração do plugin (Mídia > WebP Converter).
+ * Mantido simples para combinar com o visual padrão do WordPress.
+ */
+
+/* Container principal da página do plugin. */
+.wgc-wrap h1 {
+	margin-bottom: 16px;
+}
+
+/* Formulário de configurações com um leve respiro. */
+.wgc-form {
+	max-width: 640px;
+}
+
+/* Área que envolve a barra de progresso (escondida até iniciar). */
+#wgc-progresso-wrap {
+	margin-top: 16px;
+	max-width: 640px;
+}
+
+/* Trilho da barra de progresso. */
+.wgc-barra {
+	width: 100%;
+	height: 24px;
+	background: #e0e0e0;        /* Fundo cinza claro. */
+	border-radius: 12px;
+	overflow: hidden;           /* Esconde o excesso da barra interna. */
+}
+
+/* Parte preenchida da barra (cresce conforme o progresso). */
+#wgc-barra-interna {
+	width: 0%;                  /* Começa em 0 e o JS aumenta a largura. */
+	height: 100%;
+	background: #2271b1;        /* Azul padrão do WordPress. */
+	transition: width 0.3s ease;
+}
+
+/* Texto de status abaixo da barra. */
+#wgc-status {
+	margin-top: 8px;
+	font-weight: 600;
+}
