@@ -7,32 +7,47 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="calculator">
-        <input type="text" id="display" class="display" disabled>
-        <div class="buttons">
-            <button class="button" onclick="appendNumber('7')">7</button>
-            <button class="button" onclick="appendNumber('8')">8</button>
-            <button class="button" onclick="appendNumber('9')">9</button>
-            <button class="button" onclick="appendOperator('+')">+</button>
-
-            <button class="button" onclick="appendNumber('4')">4</button>
-            <button class="button" onclick="appendNumber('5')">5</button>
-            <button class="button" onclick="appendNumber('6')">6</button>
-            <button class="button" onclick="appendOperator('-')">-</button>
-
-            <button class="button" onclick="appendNumber('1')">1</button>
-            <button class="button" onclick="appendNumber('2')">2</button>
-            <button class="button" onclick="appendNumber('3')">3</button>
-            <button class="button" onclick="appendOperator('*')">*</button>
-
-            <button class="button" onclick="appendNumber('0')">0</button>
-            <button class="button" onclick="appendDecimal()">.</button>
-            <button class="button" onclick="clearDisplay()">C</button>
-            <button class="button" onclick="appendOperator('/')">/</button>
-
-            <button class="button equal" onclick="calculateResult()">=</button>
+    <main class="calculator" role="application" aria-label="Calculadora">
+        <div class="screen">
+            <div class="expression" id="expression" aria-hidden="true"></div>
+            <input
+                type="text"
+                id="display"
+                class="display"
+                value="0"
+                readonly
+                aria-live="polite"
+                aria-label="Resultado"
+            >
         </div>
-    </div>
+
+        <div class="buttons">
+            <button class="button action" data-action="clear">C</button>
+            <button class="button action" data-action="sign">±</button>
+            <button class="button action" data-action="percent">%</button>
+            <button class="button operator" data-operator="/">÷</button>
+
+            <button class="button" data-number="7">7</button>
+            <button class="button" data-number="8">8</button>
+            <button class="button" data-number="9">9</button>
+            <button class="button operator" data-operator="*">×</button>
+
+            <button class="button" data-number="4">4</button>
+            <button class="button" data-number="5">5</button>
+            <button class="button" data-number="6">6</button>
+            <button class="button operator" data-operator="-">−</button>
+
+            <button class="button" data-number="1">1</button>
+            <button class="button" data-number="2">2</button>
+            <button class="button" data-number="3">3</button>
+            <button class="button operator" data-operator="+">+</button>
+
+            <button class="button zero" data-number="0">0</button>
+            <button class="button" data-action="decimal">.</button>
+            <button class="button action" data-action="backspace" aria-label="Apagar">⌫</button>
+            <button class="button equal" data-action="equals">=</button>
+        </div>
+    </main>
 
     <script src="script.js"></script>
 </body>
