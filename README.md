@@ -9,7 +9,7 @@
 
 json{
   "nome": "Alisson Mendes",
-  "role": ["Front-End Developer", "AI Prompt Engineer"],
+  "role": ["Full-stack Developer", "AI Prompt Engineer"],
   "localização": "Brasil 🇧🇷",
   "missão": "Combinar design visual com IA generativa",
   "atualmente": "Explorando UI/UX + Inteligência Artificial",
@@ -20,18 +20,13 @@ json{
 
 > stack --list
 
+
 <div align="center">
-🖥️ Front-End
-
 <img src="https://skillicons.dev/icons?i=html,css,js,ts,react,tailwind,nextjs,sass&perline=8" alt="Frontend Skills"/>
-🤖 IA & Prompts
-
 <img src="https://skillicons.dev/icons?i=openai,py&perline=8" alt="AI Skills"/>
 <img src="https://img.shields.io/badge/ChatGPT-74aa9c?style=for-the-badge&logo=openai&logoColor=white"/>
 <img src="https://img.shields.io/badge/Claude-D97757?style=for-the-badge&logo=anthropic&logoColor=white"/>
 <img src="https://img.shields.io/badge/Gemini-4285F4?style=for-the-badge&logo=google&logoColor=white"/>
-🛠️ Ferramentas
-
 <img src="https://skillicons.dev/icons?i=git,github,vscode,figma,nodejs,vercel,linux&perline=8" alt="Tools"/>
 </div>
 
@@ -50,7 +45,7 @@ json{
 Como AI Prompt Engineer, eu:
 
 
-🧠 Estruturo prompts para extrair o máximo de GPT-4, Claude e Gemini
+🧠 Estruturo prompts para extrair o máximo de GPT , Claude e Gemini
 ⚡ Automatizo fluxos de trabalho usando IA generativa
 🔗 Integro LLMs em interfaces e produtos digitais
 📐 Documento e otimizo prompts para uso em produção
