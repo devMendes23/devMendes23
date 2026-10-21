@@ -1,0 +1,22 @@
+{
+  "board": [
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    ""
+  ],
+  "moves": [],
+  "last_ai": null,
+  "score": {
+    "humanos": 0,
+    "ia": 0,
+    "empates": 0
+  },
+  "players": {},
+  "last_game": null
+}

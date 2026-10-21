@@ -1,0 +1,57 @@
+name: Jogo da velha
+
+on:
+  issues:
+    types: [opened]
+
+permissions:
+  contents: write
+  issues: write
+
+# Uma jogada por vez, para duas pessoas não jogarem no mesmo tabuleiro ao mesmo tempo.
+concurrency:
+  group: jogo-da-velha
+  cancel-in-progress: false
+
+jobs:
+  jogar:
+    if: startsWith(github.event.issue.title, 'ttt|')
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Aplicar jogada e resposta da IA
+        env:
+          ISSUE_TITLE: ${{ github.event.issue.title }}
+          PLAYER: ${{ github.event.issue.user.login }}
+          COMMENT_FILE: ${{ runner.temp }}/comentario.md
+        run: python3 .github/ttt/ttt.py
+
+      - name: Salvar tabuleiro
+        env:
+          PLAYER: ${{ github.event.issue.user.login }}
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add README.md .github/ttt/state.json
+          if ! git diff --cached --quiet; then
+            git commit -m "Jogo da velha: jogada de @${PLAYER}"
+            git pull --rebase origin "${GITHUB_REF_NAME}"
+            git push
+          fi
+
+      - name: Responder e fechar a issue
+        if: always()
+        env:
+          GH_TOKEN: ${{ github.token }}
+          NUMBER: ${{ github.event.issue.number }}
+          JOB_STATUS: ${{ job.status }}
+          COMMENT_FILE: ${{ runner.temp }}/comentario.md
+        run: |
+          if [ "$JOB_STATUS" = "success" ] && [ -s "$COMMENT_FILE" ]; then
+            gh issue comment "$NUMBER" --repo "$GITHUB_REPOSITORY" --body-file "$COMMENT_FILE"
+          else
+            gh issue comment "$NUMBER" --repo "$GITHUB_REPOSITORY" --body "Algo deu errado com essa jogada 😅 Tente de novo pelo perfil em alguns segundos."
+          fi
+          gh issue close "$NUMBER" --repo "$GITHUB_REPOSITORY"
