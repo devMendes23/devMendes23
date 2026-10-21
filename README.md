@@ -83,6 +83,13 @@ Sou **engenheiro de IA e desenvolvedor de software**. Junto modelos de linguagem
 | :-- | :-- | :-- |
 | **[PACHE.CO](https://pache-co.vercel.app)** | Catálogo de streetwear com painel administrativo | Next.js 16 · TypeScript · Supabase |
 
+## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Hammer%20and%20Wrench.png" width="30" alt=""> Código aberto
+
+| Projeto | O que faz | Stack |
+| :-- | :-- | :-- |
+| **[crm-nfe-agent](https://github.com/devMendes23/crm-nfe-agent)** | Servidor MCP para um agente de IA conferir NFe (XML) e lançar no CRM. Confere itens, preços, quantidades e tributos (ICMS, IPI, PIS, COFINS), e as regras são código determinístico, sem depender de LLM | Python · MCP · Pydantic · OAuth2 · pytest |
+| **[webp-product-cards](https://github.com/devMendes23/webp-product-cards)** | Plugin WordPress que converte só as imagens dos cards de produto para WebP, com fallback via `<picture>`. Tem logs JSON, health check, métricas e deploy com rollback | PHP · WooCommerce · Elementor · PHPUnit · GitHub Actions |
+
 ## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Briefcase.png" width="30" alt=""> Como posso ajudar seu projeto
 
 | Serviço | O que você recebe |
