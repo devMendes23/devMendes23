@@ -82,7 +82,6 @@ Sou **engenheiro de IA e desenvolvedor de software**. Junto modelos de linguagem
 | Projeto | O que é | Stack |
 | :-- | :-- | :-- |
 | **[PACHE.CO](https://pache-co.vercel.app)** | Catálogo de streetwear com painel administrativo | Next.js 16 · TypeScript · Supabase |
-| **[Duda Margotti Beauty](https://duda-margotti-beauty.vercel.app)** | Site de maquiagem, cabelo e estética em Canoas/RS | TypeScript · Vercel |
 
 ## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Briefcase.png" width="30" alt=""> Como posso ajudar seu projeto
 
