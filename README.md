@@ -84,6 +84,28 @@ Sou **engenheiro de IA e desenvolvedor de software**. Junto modelos de linguagem
 | **[PACHE.CO](https://pache-co.vercel.app)** | Catálogo de streetwear com painel administrativo | Next.js 16 · TypeScript · Supabase |
 | **[Duda Margotti Beauty](https://duda-margotti-beauty.vercel.app)** | Site de maquiagem, cabelo e estética em Canoas/RS | TypeScript · Vercel |
 
+## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Briefcase.png" width="30" alt=""> Como posso ajudar seu projeto
+
+| Serviço | O que você recebe |
+| :-- | :-- |
+| 🌐 **Sites e landing pages** | Site rápido, responsivo e pronto para o Google, com formulário de contato e deploy na Vercel |
+| 🛒 **Catálogos e painéis** | Catálogo de produtos com painel administrativo para você mesmo atualizar preços, fotos e estoque |
+| 🤖 **Chatbots e agentes de IA** | Atendimento automático com Claude, GPT ou Gemini, treinado no conteúdo da sua empresa |
+| ⚙️ **Automações** | Integrações entre sistemas, planilhas, e-mail e WhatsApp para eliminar trabalho manual |
+| 🧠 **Engenharia de prompt** | Prompts estruturados, testados e documentados para o seu time ou produto |
+
+### Como eu trabalho
+
+1. **Briefing:** entendo o objetivo, o público e o prazo
+2. **Proposta:** escopo fechado, valor e cronograma por etapas
+3. **Entregas parciais:** você acompanha e aprova cada fase
+4. **Entrega final:** código, acesso e documentação são seus
+5. **Suporte:** acompanhamento combinado após a entrega
+
+<p align="center">
+  <a href="https://wa.me/5551989135377?text=Oi%2C%20Alisson!%20Vi%20seu%20perfil%20no%20GitHub%20e%20quero%20um%20or%C3%A7amento."><img src="https://img.shields.io/badge/Pedir%20or%C3%A7amento-WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" alt="Pedir orçamento pelo WhatsApp"></a>
+</p>
+
 <a name="jogo"></a>
 
 ## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Smilies/Alien%20Monster.png" width="30" alt=""> Jogue contra minha IA
